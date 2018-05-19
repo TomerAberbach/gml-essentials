@@ -3,7 +3,7 @@
 // Checks if the game is in focus
 if (window_has_focus()) {
     // Checks if the game is fullscreen
-    if (window_get_fullscreen() == true) {
+    if (window_get_fullscreen()) {
         // Gets the display dimensions
         var flo_maxw = display_get_width();
         var flo_maxh = display_get_height();
